@@ -2,3 +2,5 @@ cm_computationl_mathematics/cm_final*.pdf
 fe_financial_economics/fe_final*.pdf
 rts_regression_time_series/rts_final*.pdf
 sm_stochastic_methods/sm_final*.pdf
+books/*
+tests/*

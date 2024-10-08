@@ -61,7 +61,7 @@ def display_results(roots, values):
 
 
 def f(x):
-    return x ** 5 - x ** 3 + 2
+    return x**5 - x**3 + 2
 
 
 # Initial guess
