@@ -1,7 +1,5 @@
 # Computational Finance
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/da/Random_Walk_example.svg)
-
 - [stochastic methods](stochastic_methods/stochastic_methods.md)
 - [computational mathematics](computational_mathematics/computational_mathematics.md)
 - [regression & time series](regression_time_series/regression_time_series.md)
