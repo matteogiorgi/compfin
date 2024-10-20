@@ -1,4 +1,3 @@
-import math
 from datetime import datetime
 
 
@@ -69,15 +68,12 @@ def display_results(roots, values):
         print(f"{i + 1:<12}{roots[i]:<20.6f}{values[i]:<20.6f}")
 
 
-def f(x):
-    return x ** 5 - x ** 3 + 2
-
-
+fun = lambda x: x**5 - x**3 + 2
 a = -1.5
 b = -1
 
 start_time = datetime.now()
-roots, values = binary_search(f, a, b)
+roots, values = binary_search(fun, a, b)
 print("Execution time:", datetime.now() - start_time)
 
 display_results(roots, values)
