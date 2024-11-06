@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 from scipy.optimize import approx_fprime
 from datetime import datetime
 
